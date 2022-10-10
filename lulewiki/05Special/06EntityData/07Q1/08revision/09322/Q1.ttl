@@ -1,0 +1,562 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <https://lule.miraheze.org/entity/> .
+@prefix data: <https://lule.miraheze.org/wiki/Special:EntityData/> .
+@prefix s: <https://lule.miraheze.org/entity/statement/> .
+@prefix ref: <https://lule.miraheze.org/reference/> .
+@prefix v: <https://lule.miraheze.org/value/> .
+@prefix wdt: <https://lule.miraheze.org/prop/direct/> .
+@prefix wdtn: <https://lule.miraheze.org/prop/direct-normalized/> .
+@prefix p: <https://lule.miraheze.org/prop/> .
+@prefix ps: <https://lule.miraheze.org/prop/statement/> .
+@prefix psv: <https://lule.miraheze.org/prop/statement/value/> .
+@prefix psn: <https://lule.miraheze.org/prop/statement/value-normalized/> .
+@prefix pq: <https://lule.miraheze.org/prop/qualifier/> .
+@prefix pqv: <https://lule.miraheze.org/prop/qualifier/value/> .
+@prefix pqn: <https://lule.miraheze.org/prop/qualifier/value-normalized/> .
+@prefix pr: <https://lule.miraheze.org/prop/reference/> .
+@prefix prv: <https://lule.miraheze.org/prop/reference/value/> .
+@prefix prn: <https://lule.miraheze.org/prop/reference/value-normalized/> .
+@prefix wdno: <https://lule.miraheze.org/prop/novalue/> .
+
+data:Q1 a schema:Dataset ;
+	schema:about wd:Q1 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "322"^^xsd:integer ;
+	schema:dateModified "2022-09-23T22:29:50Z"^^xsd:dateTime ;
+	wikibase:statements "10"^^xsd:integer ;
+	wikibase:sitelinks "0"^^xsd:integer ;
+	wikibase:identifiers "0"^^xsd:integer .
+
+wd:Q1 a wikibase:Item ;
+	wdt:P2 wd:Q1,
+		wd:Q13,
+		wd:Q2 ;
+	wdt:P4 "Ἥγημα" ;
+	wdt:P5 "Ἥγημα" ;
+	wdt:P6 "Ἥγημα" ;
+	wdt:P7 "lule:Hegeme" ;
+	wdt:P18 wd:Q2 ;
+	wdt:P31 wd:P21 ;
+	wdt:P21 "Ἥγημα" ;
+	p:P2 s:Q1-d4de35d8-4b26-e95b-f123-c7c62f5519af .
+
+s:Q1-d4de35d8-4b26-e95b-f123-c7c62f5519af a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P2 wd:Q1 .
+
+wd:Q1 p:P2 s:Q1-48a92983-4fe3-e53d-a2ba-efd55fc10013 .
+
+s:Q1-48a92983-4fe3-e53d-a2ba-efd55fc10013 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P2 wd:Q13 .
+
+wd:Q1 p:P2 s:Q1-01a1531c-48ec-12d2-772e-3d2016e46720 .
+
+s:Q1-01a1531c-48ec-12d2-772e-3d2016e46720 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P2 wd:Q2 ;
+	pq:P3 wd:Q28 ;
+	pq:P19 wd:Q22 .
+
+wd:Q1 p:P4 s:Q1-94a2cb54-4547-1217-fba4-42fe7e52ebac .
+
+s:Q1-94a2cb54-4547-1217-fba4-42fe7e52ebac a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P4 "Ἥγημα" ;
+	pq:P3 wd:Q25 .
+
+wd:Q1 p:P5 s:Q1-98dfcaf8-45ec-9b15-bbb1-1e8a967e687d .
+
+s:Q1-98dfcaf8-45ec-9b15-bbb1-1e8a967e687d a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P5 "Ἥγημα" ;
+	pq:P3 wd:Q25 .
+
+wd:Q1 p:P6 s:Q1-14695b8f-4fc4-ef6b-234e-ee2b2d8d801a .
+
+s:Q1-14695b8f-4fc4-ef6b-234e-ee2b2d8d801a a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P6 "Ἥγημα" ;
+	pq:P3 wd:Q25 .
+
+wd:Q1 p:P7 s:Q1-a9d5920e-4c37-fadc-7a35-cc410e2c8330 .
+
+s:Q1-a9d5920e-4c37-fadc-7a35-cc410e2c8330 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P7 "lule:Hegeme" ;
+	pq:P3 wd:Q25 .
+
+wd:Q1 p:P18 s:Q1-7fd328ee-4855-3799-4848-d91542c8e1d6 .
+
+s:Q1-7fd328ee-4855-3799-4848-d91542c8e1d6 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P18 wd:Q2 ;
+	pq:P3 wd:Q23 ;
+	pq:P19 wd:Q21 .
+
+wd:Q1 p:P31 s:Q1-4c0cb157-472c-8ff1-9b89-35b125dad123 .
+
+s:Q1-4c0cb157-472c-8ff1-9b89-35b125dad123 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P31 wd:P21 .
+
+wd:Q1 p:P21 s:Q1-b60eb541-4b8f-1705-10d2-eb85b56c512a .
+
+s:Q1-b60eb541-4b8f-1705-10d2-eb85b56c512a a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P21 "Ἥγημα" .
+
+wd:Q1 rdfs:label "Ἥγημα"@en ;
+	skos:prefLabel "Ἥγημα"@en ;
+	schema:name "Ἥγημα"@en ;
+	skos:altLabel "lule:Hegeme"@en .
+
+wd:P2 a wikibase:Property ;
+	rdfs:label "type"@en ;
+	skos:prefLabel "type"@en ;
+	schema:name "type"@en ;
+	schema:description "The subject is an instance of a class."@en ;
+	wikibase:propertyType <http://wikiba.se/ontology#WikibaseItem> ;
+	wikibase:directClaim wdt:P2 ;
+	wikibase:claim p:P2 ;
+	wikibase:statementProperty ps:P2 ;
+	wikibase:statementValue psv:P2 ;
+	wikibase:qualifier pq:P2 ;
+	wikibase:qualifierValue pqv:P2 ;
+	wikibase:reference pr:P2 ;
+	wikibase:referenceValue prv:P2 ;
+	wikibase:novalue wdno:P2 .
+
+p:P2 a owl:ObjectProperty .
+
+psv:P2 a owl:ObjectProperty .
+
+pqv:P2 a owl:ObjectProperty .
+
+prv:P2 a owl:ObjectProperty .
+
+wdt:P2 a owl:ObjectProperty .
+
+ps:P2 a owl:ObjectProperty .
+
+pq:P2 a owl:ObjectProperty .
+
+pr:P2 a owl:ObjectProperty .
+
+wdno:P2 a owl:Class ;
+	owl:complementOf _:1f05fece3ad482b53eed1f5510da49fa .
+
+_:1f05fece3ad482b53eed1f5510da49fa a owl:Restriction ;
+	owl:onProperty wdt:P2 ;
+	owl:someValuesFrom owl:Thing .
+
+wd:Q13 a wikibase:Item ;
+	rdfs:label "Resource"@en ;
+	skos:prefLabel "Resource"@en ;
+	schema:name "Resource"@en ;
+	schema:description "The class resource, everything."@en .
+
+wd:Q2 a wikibase:Item ;
+	rdfs:label "Item"@en ;
+	skos:prefLabel "Item"@en ;
+	schema:name "Item"@en ;
+	schema:description "Wikibase item."@en .
+
+wd:P4 a wikibase:Property ;
+	rdfs:label "label"@en ;
+	skos:prefLabel "label"@en ;
+	schema:name "label"@en ;
+	schema:description "A human-readable name for the subject."@en ;
+	wikibase:propertyType <http://wikiba.se/ontology#String> ;
+	wikibase:directClaim wdt:P4 ;
+	wikibase:claim p:P4 ;
+	wikibase:statementProperty ps:P4 ;
+	wikibase:statementValue psv:P4 ;
+	wikibase:qualifier pq:P4 ;
+	wikibase:qualifierValue pqv:P4 ;
+	wikibase:reference pr:P4 ;
+	wikibase:referenceValue prv:P4 ;
+	wikibase:novalue wdno:P4 .
+
+p:P4 a owl:ObjectProperty .
+
+psv:P4 a owl:ObjectProperty .
+
+pqv:P4 a owl:ObjectProperty .
+
+prv:P4 a owl:ObjectProperty .
+
+wdt:P4 a owl:DatatypeProperty .
+
+ps:P4 a owl:DatatypeProperty .
+
+pq:P4 a owl:DatatypeProperty .
+
+pr:P4 a owl:DatatypeProperty .
+
+wdno:P4 a owl:Class ;
+	owl:complementOf _:c298799f0cd3665c958b9d4edf0ffbf3 .
+
+_:c298799f0cd3665c958b9d4edf0ffbf3 a owl:Restriction ;
+	owl:onProperty wdt:P4 ;
+	owl:someValuesFrom owl:Thing .
+
+wd:P5 a wikibase:Property ;
+	rdfs:label "preferred label"@en ;
+	skos:prefLabel "preferred label"@en ;
+	schema:name "preferred label"@en ;
+	schema:description "The preferred lexical label for a resource, in a given language."@en ;
+	wikibase:propertyType <http://wikiba.se/ontology#String> ;
+	wikibase:directClaim wdt:P5 ;
+	wikibase:claim p:P5 ;
+	wikibase:statementProperty ps:P5 ;
+	wikibase:statementValue psv:P5 ;
+	wikibase:qualifier pq:P5 ;
+	wikibase:qualifierValue pqv:P5 ;
+	wikibase:reference pr:P5 ;
+	wikibase:referenceValue prv:P5 ;
+	wikibase:novalue wdno:P5 .
+
+p:P5 a owl:ObjectProperty .
+
+psv:P5 a owl:ObjectProperty .
+
+pqv:P5 a owl:ObjectProperty .
+
+prv:P5 a owl:ObjectProperty .
+
+wdt:P5 a owl:DatatypeProperty .
+
+ps:P5 a owl:DatatypeProperty .
+
+pq:P5 a owl:DatatypeProperty .
+
+pr:P5 a owl:DatatypeProperty .
+
+wdno:P5 a owl:Class ;
+	owl:complementOf _:5a6c7a576e39dbbe9a035303bd73cd44 .
+
+_:5a6c7a576e39dbbe9a035303bd73cd44 a owl:Restriction ;
+	owl:onProperty wdt:P5 ;
+	owl:someValuesFrom owl:Thing .
+
+wd:P6 a wikibase:Property ;
+	rdfs:label "name"@en ;
+	skos:prefLabel "name"@en ;
+	schema:name "name"@en ;
+	schema:description "The name of the item."@en ;
+	wikibase:propertyType <http://wikiba.se/ontology#String> ;
+	wikibase:directClaim wdt:P6 ;
+	wikibase:claim p:P6 ;
+	wikibase:statementProperty ps:P6 ;
+	wikibase:statementValue psv:P6 ;
+	wikibase:qualifier pq:P6 ;
+	wikibase:qualifierValue pqv:P6 ;
+	wikibase:reference pr:P6 ;
+	wikibase:referenceValue prv:P6 ;
+	wikibase:novalue wdno:P6 .
+
+p:P6 a owl:ObjectProperty .
+
+psv:P6 a owl:ObjectProperty .
+
+pqv:P6 a owl:ObjectProperty .
+
+prv:P6 a owl:ObjectProperty .
+
+wdt:P6 a owl:DatatypeProperty .
+
+ps:P6 a owl:DatatypeProperty .
+
+pq:P6 a owl:DatatypeProperty .
+
+pr:P6 a owl:DatatypeProperty .
+
+wdno:P6 a owl:Class ;
+	owl:complementOf _:756f10bc5f45e99cc0b50f82c4769b77 .
+
+_:756f10bc5f45e99cc0b50f82c4769b77 a owl:Restriction ;
+	owl:onProperty wdt:P6 ;
+	owl:someValuesFrom owl:Thing .
+
+wd:P7 a wikibase:Property ;
+	rdfs:label "alternative label"@en ;
+	skos:prefLabel "alternative label"@en ;
+	schema:name "alternative label"@en ;
+	schema:description "An alternative lexical label for a resource."@en ;
+	wikibase:propertyType <http://wikiba.se/ontology#String> ;
+	wikibase:directClaim wdt:P7 ;
+	wikibase:claim p:P7 ;
+	wikibase:statementProperty ps:P7 ;
+	wikibase:statementValue psv:P7 ;
+	wikibase:qualifier pq:P7 ;
+	wikibase:qualifierValue pqv:P7 ;
+	wikibase:reference pr:P7 ;
+	wikibase:referenceValue prv:P7 ;
+	wikibase:novalue wdno:P7 .
+
+p:P7 a owl:ObjectProperty .
+
+psv:P7 a owl:ObjectProperty .
+
+pqv:P7 a owl:ObjectProperty .
+
+prv:P7 a owl:ObjectProperty .
+
+wdt:P7 a owl:DatatypeProperty .
+
+ps:P7 a owl:DatatypeProperty .
+
+pq:P7 a owl:DatatypeProperty .
+
+pr:P7 a owl:DatatypeProperty .
+
+wdno:P7 a owl:Class ;
+	owl:complementOf _:b3316efa17ecac96bd23cd2f352c0a22 .
+
+_:b3316efa17ecac96bd23cd2f352c0a22 a owl:Restriction ;
+	owl:onProperty wdt:P7 ;
+	owl:someValuesFrom owl:Thing .
+
+wd:P18 a wikibase:Property ;
+	rdfs:label "a"@en ;
+	skos:prefLabel "a"@en ;
+	schema:name "a"@en ;
+	schema:description "token 'a' in the predicate position of a Turtle triple"@en ;
+	wikibase:propertyType <http://wikiba.se/ontology#WikibaseItem> ;
+	wikibase:directClaim wdt:P18 ;
+	wikibase:claim p:P18 ;
+	wikibase:statementProperty ps:P18 ;
+	wikibase:statementValue psv:P18 ;
+	wikibase:qualifier pq:P18 ;
+	wikibase:qualifierValue pqv:P18 ;
+	wikibase:reference pr:P18 ;
+	wikibase:referenceValue prv:P18 ;
+	wikibase:novalue wdno:P18 .
+
+p:P18 a owl:ObjectProperty .
+
+psv:P18 a owl:ObjectProperty .
+
+pqv:P18 a owl:ObjectProperty .
+
+prv:P18 a owl:ObjectProperty .
+
+wdt:P18 a owl:ObjectProperty .
+
+ps:P18 a owl:ObjectProperty .
+
+pq:P18 a owl:ObjectProperty .
+
+pr:P18 a owl:ObjectProperty .
+
+wdno:P18 a owl:Class ;
+	owl:complementOf _:6805f61e02eb4845abffeb9b8a398ef2 .
+
+_:6805f61e02eb4845abffeb9b8a398ef2 a owl:Restriction ;
+	owl:onProperty wdt:P18 ;
+	owl:someValuesFrom owl:Thing .
+
+wd:P21 a wikibase:Property ;
+	rdfs:label "rdftext.string-value"@en ;
+	skos:prefLabel "rdftext.string-value"@en ;
+	schema:name "rdftext.string-value"@en ;
+	schema:description "RDF Text Event string-value accessor"@en ;
+	wikibase:propertyType <http://wikiba.se/ontology#String> ;
+	wikibase:directClaim wdt:P21 ;
+	wikibase:claim p:P21 ;
+	wikibase:statementProperty ps:P21 ;
+	wikibase:statementValue psv:P21 ;
+	wikibase:qualifier pq:P21 ;
+	wikibase:qualifierValue pqv:P21 ;
+	wikibase:reference pr:P21 ;
+	wikibase:referenceValue prv:P21 ;
+	wikibase:novalue wdno:P21 .
+
+p:P21 a owl:ObjectProperty .
+
+psv:P21 a owl:ObjectProperty .
+
+pqv:P21 a owl:ObjectProperty .
+
+prv:P21 a owl:ObjectProperty .
+
+wdt:P21 a owl:DatatypeProperty .
+
+ps:P21 a owl:DatatypeProperty .
+
+pq:P21 a owl:DatatypeProperty .
+
+pr:P21 a owl:DatatypeProperty .
+
+wdno:P21 a owl:Class ;
+	owl:complementOf _:b7ce489725b88be3120150aea852ad48 .
+
+_:b7ce489725b88be3120150aea852ad48 a owl:Restriction ;
+	owl:onProperty wdt:P21 ;
+	owl:someValuesFrom owl:Thing .
+
+wd:P31 a wikibase:Property ;
+	rdfs:label "is rdf:value of"@en ;
+	skos:prefLabel "is rdf:value of"@en ;
+	schema:name "is rdf:value of"@en ;
+	wikibase:propertyType <http://wikiba.se/ontology#WikibaseProperty> ;
+	wikibase:directClaim wdt:P31 ;
+	wikibase:claim p:P31 ;
+	wikibase:statementProperty ps:P31 ;
+	wikibase:statementValue psv:P31 ;
+	wikibase:qualifier pq:P31 ;
+	wikibase:qualifierValue pqv:P31 ;
+	wikibase:reference pr:P31 ;
+	wikibase:referenceValue prv:P31 ;
+	wikibase:novalue wdno:P31 .
+
+p:P31 a owl:ObjectProperty .
+
+psv:P31 a owl:ObjectProperty .
+
+pqv:P31 a owl:ObjectProperty .
+
+prv:P31 a owl:ObjectProperty .
+
+wdt:P31 a owl:ObjectProperty .
+
+ps:P31 a owl:ObjectProperty .
+
+pq:P31 a owl:ObjectProperty .
+
+pr:P31 a owl:ObjectProperty .
+
+wdno:P31 a owl:Class ;
+	owl:complementOf _:3d66a9a972a16b3583effd41e5f2aff4 .
+
+_:3d66a9a972a16b3583effd41e5f2aff4 a owl:Restriction ;
+	owl:onProperty wdt:P31 ;
+	owl:someValuesFrom owl:Thing .
+
+wd:Q28 a wikibase:Item ;
+	rdfs:label "data:Q1.rdf"@en ;
+	skos:prefLabel "data:Q1.rdf"@en ;
+	schema:name "data:Q1.rdf"@en .
+
+wd:P3 a wikibase:Property ;
+	rdfs:label "is in scheme"@en ;
+	skos:prefLabel "is in scheme"@en ;
+	schema:name "is in scheme"@en ;
+	schema:description "Relates a resource (for example a concept) to a concept scheme in which it is included."@en ;
+	wikibase:propertyType <http://wikiba.se/ontology#WikibaseItem> ;
+	wikibase:directClaim wdt:P3 ;
+	wikibase:claim p:P3 ;
+	wikibase:statementProperty ps:P3 ;
+	wikibase:statementValue psv:P3 ;
+	wikibase:qualifier pq:P3 ;
+	wikibase:qualifierValue pqv:P3 ;
+	wikibase:reference pr:P3 ;
+	wikibase:referenceValue prv:P3 ;
+	wikibase:novalue wdno:P3 .
+
+p:P3 a owl:ObjectProperty .
+
+psv:P3 a owl:ObjectProperty .
+
+pqv:P3 a owl:ObjectProperty .
+
+prv:P3 a owl:ObjectProperty .
+
+wdt:P3 a owl:ObjectProperty .
+
+ps:P3 a owl:ObjectProperty .
+
+pq:P3 a owl:ObjectProperty .
+
+pr:P3 a owl:ObjectProperty .
+
+wdno:P3 a owl:Class ;
+	owl:complementOf _:1086e1c4470bf0a461225f75b332f53e .
+
+_:1086e1c4470bf0a461225f75b332f53e a owl:Restriction ;
+	owl:onProperty wdt:P3 ;
+	owl:someValuesFrom owl:Thing .
+
+wd:Q22 a wikibase:Item ;
+	rdfs:label "application/rdf+xml"@en ;
+	skos:prefLabel "application/rdf+xml"@en ;
+	schema:name "application/rdf+xml"@en ;
+	schema:description "XML syntax for RDF graphs"@en .
+
+wd:P19 a wikibase:Property ;
+	rdfs:label "mediaType"@en ;
+	skos:prefLabel "mediaType"@en ;
+	schema:name "mediaType"@en ;
+	schema:description "The media type of the distribution as defined by IANA"@en ;
+	wikibase:propertyType <http://wikiba.se/ontology#WikibaseItem> ;
+	wikibase:directClaim wdt:P19 ;
+	wikibase:claim p:P19 ;
+	wikibase:statementProperty ps:P19 ;
+	wikibase:statementValue psv:P19 ;
+	wikibase:qualifier pq:P19 ;
+	wikibase:qualifierValue pqv:P19 ;
+	wikibase:reference pr:P19 ;
+	wikibase:referenceValue prv:P19 ;
+	wikibase:novalue wdno:P19 .
+
+p:P19 a owl:ObjectProperty .
+
+psv:P19 a owl:ObjectProperty .
+
+pqv:P19 a owl:ObjectProperty .
+
+prv:P19 a owl:ObjectProperty .
+
+wdt:P19 a owl:ObjectProperty .
+
+ps:P19 a owl:ObjectProperty .
+
+pq:P19 a owl:ObjectProperty .
+
+pr:P19 a owl:ObjectProperty .
+
+wdno:P19 a owl:Class ;
+	owl:complementOf _:427a1cf7aa76aeba0fa0d95411406bf8 .
+
+_:427a1cf7aa76aeba0fa0d95411406bf8 a owl:Restriction ;
+	owl:onProperty wdt:P19 ;
+	owl:someValuesFrom owl:Thing .
+
+wd:Q25 a wikibase:Item ;
+	rdfs:label "data:Q1"@en ;
+	skos:prefLabel "data:Q1"@en ;
+	schema:name "data:Q1"@en .
+
+wd:Q23 a wikibase:Item ;
+	rdfs:label "data:Q1.ttl"@en ;
+	skos:prefLabel "data:Q1.ttl"@en ;
+	schema:name "data:Q1.ttl"@en .
+
+wd:Q21 a wikibase:Item ;
+	rdfs:label "text/turtle"@en ;
+	skos:prefLabel "text/turtle"@en ;
+	schema:name "text/turtle"@en ;
+	schema:description "a concrete syntax for RDF"@en .
