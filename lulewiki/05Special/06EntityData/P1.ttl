@@ -1,0 +1,76 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <https://lule.miraheze.org/entity/> .
+@prefix data: <https://lule.miraheze.org/wiki/Special:EntityData/> .
+@prefix s: <https://lule.miraheze.org/entity/statement/> .
+@prefix ref: <https://lule.miraheze.org/reference/> .
+@prefix v: <https://lule.miraheze.org/value/> .
+@prefix wdt: <https://lule.miraheze.org/prop/direct/> .
+@prefix wdtn: <https://lule.miraheze.org/prop/direct-normalized/> .
+@prefix p: <https://lule.miraheze.org/prop/> .
+@prefix ps: <https://lule.miraheze.org/prop/statement/> .
+@prefix psv: <https://lule.miraheze.org/prop/statement/value/> .
+@prefix psn: <https://lule.miraheze.org/prop/statement/value-normalized/> .
+@prefix pq: <https://lule.miraheze.org/prop/qualifier/> .
+@prefix pqv: <https://lule.miraheze.org/prop/qualifier/value/> .
+@prefix pqn: <https://lule.miraheze.org/prop/qualifier/value-normalized/> .
+@prefix pr: <https://lule.miraheze.org/prop/reference/> .
+@prefix prv: <https://lule.miraheze.org/prop/reference/value/> .
+@prefix prn: <https://lule.miraheze.org/prop/reference/value-normalized/> .
+@prefix wdno: <https://lule.miraheze.org/prop/novalue/> .
+
+data:P1 a schema:Dataset ;
+	schema:about wd:P1 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "2"^^xsd:integer ;
+	schema:dateModified "2022-09-09T15:23:56Z"^^xsd:dateTime ;
+	wikibase:statements "0"^^xsd:integer .
+
+wd:P1 a wikibase:Property ;
+	rdfs:label "formatter URL"@en ;
+	skos:prefLabel "formatter URL"@en ;
+	schema:name "formatter URL"@en ;
+	wikibase:propertyType <http://wikiba.se/ontology#String> ;
+	wikibase:directClaim wdt:P1 ;
+	wikibase:claim p:P1 ;
+	wikibase:statementProperty ps:P1 ;
+	wikibase:statementValue psv:P1 ;
+	wikibase:qualifier pq:P1 ;
+	wikibase:qualifierValue pqv:P1 ;
+	wikibase:reference pr:P1 ;
+	wikibase:referenceValue prv:P1 ;
+	wikibase:novalue wdno:P1 .
+
+p:P1 a owl:ObjectProperty .
+
+psv:P1 a owl:ObjectProperty .
+
+pqv:P1 a owl:ObjectProperty .
+
+prv:P1 a owl:ObjectProperty .
+
+wdt:P1 a owl:DatatypeProperty .
+
+ps:P1 a owl:DatatypeProperty .
+
+pq:P1 a owl:DatatypeProperty .
+
+pr:P1 a owl:DatatypeProperty .
+
+wdno:P1 a owl:Class ;
+	owl:complementOf _:b96ec5135b6832e1d84209d72460276b .
+
+_:b96ec5135b6832e1d84209d72460276b a owl:Restriction ;
+	owl:onProperty wdt:P1 ;
+	owl:someValuesFrom owl:Thing .
