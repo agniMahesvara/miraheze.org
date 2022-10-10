@@ -1,0 +1,674 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:ontolex="http://www.w3.org/ns/lemon/ontolex#" xmlns:dct="http://purl.org/dc/terms/" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:wikibase="http://wikiba.se/ontology#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:schema="http://schema.org/" xmlns:cc="http://creativecommons.org/ns#" xmlns:geo="http://www.opengis.net/ont/geosparql#" xmlns:prov="http://www.w3.org/ns/prov#" xmlns:wd="https://lule.miraheze.org/entity/" xmlns:data="https://lule.miraheze.org/wiki/Special:EntityData/" xmlns:s="https://lule.miraheze.org/entity/statement/" xmlns:ref="https://lule.miraheze.org/reference/" xmlns:v="https://lule.miraheze.org/value/" xmlns:wdt="https://lule.miraheze.org/prop/direct/" xmlns:wdtn="https://lule.miraheze.org/prop/direct-normalized/" xmlns:p="https://lule.miraheze.org/prop/" xmlns:ps="https://lule.miraheze.org/prop/statement/" xmlns:psv="https://lule.miraheze.org/prop/statement/value/" xmlns:psn="https://lule.miraheze.org/prop/statement/value-normalized/" xmlns:pq="https://lule.miraheze.org/prop/qualifier/" xmlns:pqv="https://lule.miraheze.org/prop/qualifier/value/" xmlns:pqn="https://lule.miraheze.org/prop/qualifier/value-normalized/" xmlns:pr="https://lule.miraheze.org/prop/reference/" xmlns:prv="https://lule.miraheze.org/prop/reference/value/" xmlns:prn="https://lule.miraheze.org/prop/reference/value-normalized/" xmlns:wdno="https://lule.miraheze.org/prop/novalue/">
+	<rdf:Description rdf:about="https://lule.miraheze.org/wiki/Special:EntityData/Q1">
+		<rdf:type rdf:resource="http://schema.org/Dataset"/>
+		<schema:about rdf:resource="https://lule.miraheze.org/entity/Q1"/>
+		<cc:license rdf:resource="http://creativecommons.org/publicdomain/zero/1.0/"/>
+		<schema:softwareVersion>1.0.0</schema:softwareVersion>
+		<schema:version rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">322</schema:version>
+		<schema:dateModified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-09-23T22:29:50Z</schema:dateModified>
+		<wikibase:statements rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10</wikibase:statements>
+		<wikibase:sitelinks rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</wikibase:sitelinks>
+		<wikibase:identifiers rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</wikibase:identifiers>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://lule.miraheze.org/entity/Q1">
+		<rdf:type rdf:resource="http://wikiba.se/ontology#Item"/>
+		<wdt:P2 rdf:resource="https://lule.miraheze.org/entity/Q1"/>
+		<wdt:P2 rdf:resource="https://lule.miraheze.org/entity/Q13"/>
+		<wdt:P2 rdf:resource="https://lule.miraheze.org/entity/Q2"/>
+		<wdt:P4>Ἥγημα</wdt:P4>
+		<wdt:P5>Ἥγημα</wdt:P5>
+		<wdt:P6>Ἥγημα</wdt:P6>
+		<wdt:P7>lule:Hegeme</wdt:P7>
+		<wdt:P18 rdf:resource="https://lule.miraheze.org/entity/Q2"/>
+		<wdt:P31 rdf:resource="https://lule.miraheze.org/entity/P21"/>
+		<wdt:P21>Ἥγημα</wdt:P21>
+		<p:P2 rdf:resource="https://lule.miraheze.org/entity/statement/Q1-d4de35d8-4b26-e95b-f123-c7c62f5519af"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://lule.miraheze.org/entity/statement/Q1-d4de35d8-4b26-e95b-f123-c7c62f5519af">
+		<rdf:type rdf:resource="http://wikiba.se/ontology#Statement"/>
+		<rdf:type rdf:resource="http://wikiba.se/ontology#BestRank"/>
+		<wikibase:rank rdf:resource="http://wikiba.se/ontology#NormalRank"/>
+		<ps:P2 rdf:resource="https://lule.miraheze.org/entity/Q1"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://lule.miraheze.org/entity/Q1">
+		<p:P2 rdf:resource="https://lule.miraheze.org/entity/statement/Q1-48a92983-4fe3-e53d-a2ba-efd55fc10013"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://lule.miraheze.org/entity/statement/Q1-48a92983-4fe3-e53d-a2ba-efd55fc10013">
+		<rdf:type rdf:resource="http://wikiba.se/ontology#Statement"/>
+		<rdf:type rdf:resource="http://wikiba.se/ontology#BestRank"/>
+		<wikibase:rank rdf:resource="http://wikiba.se/ontology#NormalRank"/>
+		<ps:P2 rdf:resource="https://lule.miraheze.org/entity/Q13"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://lule.miraheze.org/entity/Q1">
+		<p:P2 rdf:resource="https://lule.miraheze.org/entity/statement/Q1-01a1531c-48ec-12d2-772e-3d2016e46720"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://lule.miraheze.org/entity/statement/Q1-01a1531c-48ec-12d2-772e-3d2016e46720">
+		<rdf:type rdf:resource="http://wikiba.se/ontology#Statement"/>
+		<rdf:type rdf:resource="http://wikiba.se/ontology#BestRank"/>
+		<wikibase:rank rdf:resource="http://wikiba.se/ontology#NormalRank"/>
+		<ps:P2 rdf:resource="https://lule.miraheze.org/entity/Q2"/>
+		<pq:P3 rdf:resource="https://lule.miraheze.org/entity/Q28"/>
+		<pq:P19 rdf:resource="https://lule.miraheze.org/entity/Q22"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://lule.miraheze.org/entity/Q1">
+		<p:P4 rdf:resource="https://lule.miraheze.org/entity/statement/Q1-94a2cb54-4547-1217-fba4-42fe7e52ebac"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://lule.miraheze.org/entity/statement/Q1-94a2cb54-4547-1217-fba4-42fe7e52ebac">
+		<rdf:type rdf:resource="http://wikiba.se/ontology#Statement"/>
+		<rdf:type rdf:resource="http://wikiba.se/ontology#BestRank"/>
+		<wikibase:rank rdf:resource="http://wikiba.se/ontology#NormalRank"/>
+		<ps:P4>Ἥγημα</ps:P4>
+		<pq:P3 rdf:resource="https://lule.miraheze.org/entity/Q25"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://lule.miraheze.org/entity/Q1">
+		<p:P5 rdf:resource="https://lule.miraheze.org/entity/statement/Q1-98dfcaf8-45ec-9b15-bbb1-1e8a967e687d"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://lule.miraheze.org/entity/statement/Q1-98dfcaf8-45ec-9b15-bbb1-1e8a967e687d">
+		<rdf:type rdf:resource="http://wikiba.se/ontology#Statement"/>
+		<rdf:type rdf:resource="http://wikiba.se/ontology#BestRank"/>
+		<wikibase:rank rdf:resource="http://wikiba.se/ontology#NormalRank"/>
+		<ps:P5>Ἥγημα</ps:P5>
+		<pq:P3 rdf:resource="https://lule.miraheze.org/entity/Q25"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://lule.miraheze.org/entity/Q1">
+		<p:P6 rdf:resource="https://lule.miraheze.org/entity/statement/Q1-14695b8f-4fc4-ef6b-234e-ee2b2d8d801a"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://lule.miraheze.org/entity/statement/Q1-14695b8f-4fc4-ef6b-234e-ee2b2d8d801a">
+		<rdf:type rdf:resource="http://wikiba.se/ontology#Statement"/>
+		<rdf:type rdf:resource="http://wikiba.se/ontology#BestRank"/>
+		<wikibase:rank rdf:resource="http://wikiba.se/ontology#NormalRank"/>
+		<ps:P6>Ἥγημα</ps:P6>
+		<pq:P3 rdf:resource="https://lule.miraheze.org/entity/Q25"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://lule.miraheze.org/entity/Q1">
+		<p:P7 rdf:resource="https://lule.miraheze.org/entity/statement/Q1-a9d5920e-4c37-fadc-7a35-cc410e2c8330"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://lule.miraheze.org/entity/statement/Q1-a9d5920e-4c37-fadc-7a35-cc410e2c8330">
+		<rdf:type rdf:resource="http://wikiba.se/ontology#Statement"/>
+		<rdf:type rdf:resource="http://wikiba.se/ontology#BestRank"/>
+		<wikibase:rank rdf:resource="http://wikiba.se/ontology#NormalRank"/>
+		<ps:P7>lule:Hegeme</ps:P7>
+		<pq:P3 rdf:resource="https://lule.miraheze.org/entity/Q25"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://lule.miraheze.org/entity/Q1">
+		<p:P18 rdf:resource="https://lule.miraheze.org/entity/statement/Q1-7fd328ee-4855-3799-4848-d91542c8e1d6"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://lule.miraheze.org/entity/statement/Q1-7fd328ee-4855-3799-4848-d91542c8e1d6">
+		<rdf:type rdf:resource="http://wikiba.se/ontology#Statement"/>
+		<rdf:type rdf:resource="http://wikiba.se/ontology#BestRank"/>
+		<wikibase:rank rdf:resource="http://wikiba.se/ontology#NormalRank"/>
+		<ps:P18 rdf:resource="https://lule.miraheze.org/entity/Q2"/>
+		<pq:P3 rdf:resource="https://lule.miraheze.org/entity/Q23"/>
+		<pq:P19 rdf:resource="https://lule.miraheze.org/entity/Q21"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://lule.miraheze.org/entity/Q1">
+		<p:P31 rdf:resource="https://lule.miraheze.org/entity/statement/Q1-4c0cb157-472c-8ff1-9b89-35b125dad123"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://lule.miraheze.org/entity/statement/Q1-4c0cb157-472c-8ff1-9b89-35b125dad123">
+		<rdf:type rdf:resource="http://wikiba.se/ontology#Statement"/>
+		<rdf:type rdf:resource="http://wikiba.se/ontology#BestRank"/>
+		<wikibase:rank rdf:resource="http://wikiba.se/ontology#NormalRank"/>
+		<ps:P31 rdf:resource="https://lule.miraheze.org/entity/P21"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://lule.miraheze.org/entity/Q1">
+		<p:P21 rdf:resource="https://lule.miraheze.org/entity/statement/Q1-b60eb541-4b8f-1705-10d2-eb85b56c512a"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://lule.miraheze.org/entity/statement/Q1-b60eb541-4b8f-1705-10d2-eb85b56c512a">
+		<rdf:type rdf:resource="http://wikiba.se/ontology#Statement"/>
+		<rdf:type rdf:resource="http://wikiba.se/ontology#BestRank"/>
+		<wikibase:rank rdf:resource="http://wikiba.se/ontology#NormalRank"/>
+		<ps:P21>Ἥγημα</ps:P21>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://lule.miraheze.org/entity/Q1">
+		<rdfs:label xml:lang="en">Ἥγημα</rdfs:label>
+		<skos:prefLabel xml:lang="en">Ἥγημα</skos:prefLabel>
+		<schema:name xml:lang="en">Ἥγημα</schema:name>
+		<skos:altLabel xml:lang="en">lule:Hegeme</skos:altLabel>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://lule.miraheze.org/entity/P2">
+		<rdf:type rdf:resource="http://wikiba.se/ontology#Property"/>
+		<rdfs:label xml:lang="en">type</rdfs:label>
+		<skos:prefLabel xml:lang="en">type</skos:prefLabel>
+		<schema:name xml:lang="en">type</schema:name>
+		<schema:description xml:lang="en">The subject is an instance of a class.</schema:description>
+		<wikibase:propertyType rdf:resource="http://wikiba.se/ontology#WikibaseItem"/>
+		<wikibase:directClaim rdf:resource="https://lule.miraheze.org/prop/direct/P2"/>
+		<wikibase:claim rdf:resource="https://lule.miraheze.org/prop/P2"/>
+		<wikibase:statementProperty rdf:resource="https://lule.miraheze.org/prop/statement/P2"/>
+		<wikibase:statementValue rdf:resource="https://lule.miraheze.org/prop/statement/value/P2"/>
+		<wikibase:qualifier rdf:resource="https://lule.miraheze.org/prop/qualifier/P2"/>
+		<wikibase:qualifierValue rdf:resource="https://lule.miraheze.org/prop/qualifier/value/P2"/>
+		<wikibase:reference rdf:resource="https://lule.miraheze.org/prop/reference/P2"/>
+		<wikibase:referenceValue rdf:resource="https://lule.miraheze.org/prop/reference/value/P2"/>
+		<wikibase:novalue rdf:resource="https://lule.miraheze.org/prop/novalue/P2"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://lule.miraheze.org/prop/P2">
+		<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://lule.miraheze.org/prop/statement/value/P2">
+		<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://lule.miraheze.org/prop/qualifier/value/P2">
+		<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://lule.miraheze.org/prop/reference/value/P2">
+		<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://lule.miraheze.org/prop/direct/P2">
+		<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://lule.miraheze.org/prop/statement/P2">
+		<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://lule.miraheze.org/prop/qualifier/P2">
+		<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://lule.miraheze.org/prop/reference/P2">
+		<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://lule.miraheze.org/prop/novalue/P2">
+		<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+		<owl:complementOf rdf:nodeID="1f05fece3ad482b53eed1f5510da49fa"/>
+	</rdf:Description>
+	<rdf:Description rdf:nodeID="1f05fece3ad482b53eed1f5510da49fa">
+		<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+		<owl:onProperty rdf:resource="https://lule.miraheze.org/prop/direct/P2"/>
+		<owl:someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://lule.miraheze.org/entity/Q13">
+		<rdf:type rdf:resource="http://wikiba.se/ontology#Item"/>
+		<rdfs:label xml:lang="en">Resource</rdfs:label>
+		<skos:prefLabel xml:lang="en">Resource</skos:prefLabel>
+		<schema:name xml:lang="en">Resource</schema:name>
+		<schema:description xml:lang="en">The class resource, everything.</schema:description>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://lule.miraheze.org/entity/Q2">
+		<rdf:type rdf:resource="http://wikiba.se/ontology#Item"/>
+		<rdfs:label xml:lang="en">Item</rdfs:label>
+		<skos:prefLabel xml:lang="en">Item</skos:prefLabel>
+		<schema:name xml:lang="en">Item</schema:name>
+		<schema:description xml:lang="en">Wikibase item.</schema:description>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://lule.miraheze.org/entity/P4">
+		<rdf:type rdf:resource="http://wikiba.se/ontology#Property"/>
+		<rdfs:label xml:lang="en">label</rdfs:label>
+		<skos:prefLabel xml:lang="en">label</skos:prefLabel>
+		<schema:name xml:lang="en">label</schema:name>
+		<schema:description xml:lang="en">A human-readable name for the subject.</schema:description>
+		<wikibase:propertyType rdf:resource="http://wikiba.se/ontology#String"/>
+		<wikibase:directClaim rdf:resource="https://lule.miraheze.org/prop/direct/P4"/>
+		<wikibase:claim rdf:resource="https://lule.miraheze.org/prop/P4"/>
+		<wikibase:statementProperty rdf:resource="https://lule.miraheze.org/prop/statement/P4"/>
+		<wikibase:statementValue rdf:resource="https://lule.miraheze.org/prop/statement/value/P4"/>
+		<wikibase:qualifier rdf:resource="https://lule.miraheze.org/prop/qualifier/P4"/>
+		<wikibase:qualifierValue rdf:resource="https://lule.miraheze.org/prop/qualifier/value/P4"/>
+		<wikibase:reference rdf:resource="https://lule.miraheze.org/prop/reference/P4"/>
+		<wikibase:referenceValue rdf:resource="https://lule.miraheze.org/prop/reference/value/P4"/>
+		<wikibase:novalue rdf:resource="https://lule.miraheze.org/prop/novalue/P4"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://lule.miraheze.org/prop/P4">
+		<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://lule.miraheze.org/prop/statement/value/P4">
+		<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://lule.miraheze.org/prop/qualifier/value/P4">
+		<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://lule.miraheze.org/prop/reference/value/P4">
+		<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://lule.miraheze.org/prop/direct/P4">
+		<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://lule.miraheze.org/prop/statement/P4">
+		<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://lule.miraheze.org/prop/qualifier/P4">
+		<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://lule.miraheze.org/prop/reference/P4">
+		<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://lule.miraheze.org/prop/novalue/P4">
+		<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+		<owl:complementOf rdf:nodeID="c298799f0cd3665c958b9d4edf0ffbf3"/>
+	</rdf:Description>
+	<rdf:Description rdf:nodeID="c298799f0cd3665c958b9d4edf0ffbf3">
+		<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+		<owl:onProperty rdf:resource="https://lule.miraheze.org/prop/direct/P4"/>
+		<owl:someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://lule.miraheze.org/entity/P5">
+		<rdf:type rdf:resource="http://wikiba.se/ontology#Property"/>
+		<rdfs:label xml:lang="en">preferred label</rdfs:label>
+		<skos:prefLabel xml:lang="en">preferred label</skos:prefLabel>
+		<schema:name xml:lang="en">preferred label</schema:name>
+		<schema:description xml:lang="en">The preferred lexical label for a resource, in a given language.</schema:description>
+		<wikibase:propertyType rdf:resource="http://wikiba.se/ontology#String"/>
+		<wikibase:directClaim rdf:resource="https://lule.miraheze.org/prop/direct/P5"/>
+		<wikibase:claim rdf:resource="https://lule.miraheze.org/prop/P5"/>
+		<wikibase:statementProperty rdf:resource="https://lule.miraheze.org/prop/statement/P5"/>
+		<wikibase:statementValue rdf:resource="https://lule.miraheze.org/prop/statement/value/P5"/>
+		<wikibase:qualifier rdf:resource="https://lule.miraheze.org/prop/qualifier/P5"/>
+		<wikibase:qualifierValue rdf:resource="https://lule.miraheze.org/prop/qualifier/value/P5"/>
+		<wikibase:reference rdf:resource="https://lule.miraheze.org/prop/reference/P5"/>
+		<wikibase:referenceValue rdf:resource="https://lule.miraheze.org/prop/reference/value/P5"/>
+		<wikibase:novalue rdf:resource="https://lule.miraheze.org/prop/novalue/P5"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://lule.miraheze.org/prop/P5">
+		<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://lule.miraheze.org/prop/statement/value/P5">
+		<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://lule.miraheze.org/prop/qualifier/value/P5">
+		<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://lule.miraheze.org/prop/reference/value/P5">
+		<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://lule.miraheze.org/prop/direct/P5">
+		<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://lule.miraheze.org/prop/statement/P5">
+		<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://lule.miraheze.org/prop/qualifier/P5">
+		<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://lule.miraheze.org/prop/reference/P5">
+		<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://lule.miraheze.org/prop/novalue/P5">
+		<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+		<owl:complementOf rdf:nodeID="5a6c7a576e39dbbe9a035303bd73cd44"/>
+	</rdf:Description>
+	<rdf:Description rdf:nodeID="5a6c7a576e39dbbe9a035303bd73cd44">
+		<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+		<owl:onProperty rdf:resource="https://lule.miraheze.org/prop/direct/P5"/>
+		<owl:someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://lule.miraheze.org/entity/P6">
+		<rdf:type rdf:resource="http://wikiba.se/ontology#Property"/>
+		<rdfs:label xml:lang="en">name</rdfs:label>
+		<skos:prefLabel xml:lang="en">name</skos:prefLabel>
+		<schema:name xml:lang="en">name</schema:name>
+		<schema:description xml:lang="en">The name of the item.</schema:description>
+		<wikibase:propertyType rdf:resource="http://wikiba.se/ontology#String"/>
+		<wikibase:directClaim rdf:resource="https://lule.miraheze.org/prop/direct/P6"/>
+		<wikibase:claim rdf:resource="https://lule.miraheze.org/prop/P6"/>
+		<wikibase:statementProperty rdf:resource="https://lule.miraheze.org/prop/statement/P6"/>
+		<wikibase:statementValue rdf:resource="https://lule.miraheze.org/prop/statement/value/P6"/>
+		<wikibase:qualifier rdf:resource="https://lule.miraheze.org/prop/qualifier/P6"/>
+		<wikibase:qualifierValue rdf:resource="https://lule.miraheze.org/prop/qualifier/value/P6"/>
+		<wikibase:reference rdf:resource="https://lule.miraheze.org/prop/reference/P6"/>
+		<wikibase:referenceValue rdf:resource="https://lule.miraheze.org/prop/reference/value/P6"/>
+		<wikibase:novalue rdf:resource="https://lule.miraheze.org/prop/novalue/P6"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://lule.miraheze.org/prop/P6">
+		<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://lule.miraheze.org/prop/statement/value/P6">
+		<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://lule.miraheze.org/prop/qualifier/value/P6">
+		<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://lule.miraheze.org/prop/reference/value/P6">
+		<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://lule.miraheze.org/prop/direct/P6">
+		<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://lule.miraheze.org/prop/statement/P6">
+		<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://lule.miraheze.org/prop/qualifier/P6">
+		<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://lule.miraheze.org/prop/reference/P6">
+		<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://lule.miraheze.org/prop/novalue/P6">
+		<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+		<owl:complementOf rdf:nodeID="756f10bc5f45e99cc0b50f82c4769b77"/>
+	</rdf:Description>
+	<rdf:Description rdf:nodeID="756f10bc5f45e99cc0b50f82c4769b77">
+		<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+		<owl:onProperty rdf:resource="https://lule.miraheze.org/prop/direct/P6"/>
+		<owl:someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://lule.miraheze.org/entity/P7">
+		<rdf:type rdf:resource="http://wikiba.se/ontology#Property"/>
+		<rdfs:label xml:lang="en">alternative label</rdfs:label>
+		<skos:prefLabel xml:lang="en">alternative label</skos:prefLabel>
+		<schema:name xml:lang="en">alternative label</schema:name>
+		<schema:description xml:lang="en">An alternative lexical label for a resource.</schema:description>
+		<wikibase:propertyType rdf:resource="http://wikiba.se/ontology#String"/>
+		<wikibase:directClaim rdf:resource="https://lule.miraheze.org/prop/direct/P7"/>
+		<wikibase:claim rdf:resource="https://lule.miraheze.org/prop/P7"/>
+		<wikibase:statementProperty rdf:resource="https://lule.miraheze.org/prop/statement/P7"/>
+		<wikibase:statementValue rdf:resource="https://lule.miraheze.org/prop/statement/value/P7"/>
+		<wikibase:qualifier rdf:resource="https://lule.miraheze.org/prop/qualifier/P7"/>
+		<wikibase:qualifierValue rdf:resource="https://lule.miraheze.org/prop/qualifier/value/P7"/>
+		<wikibase:reference rdf:resource="https://lule.miraheze.org/prop/reference/P7"/>
+		<wikibase:referenceValue rdf:resource="https://lule.miraheze.org/prop/reference/value/P7"/>
+		<wikibase:novalue rdf:resource="https://lule.miraheze.org/prop/novalue/P7"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://lule.miraheze.org/prop/P7">
+		<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://lule.miraheze.org/prop/statement/value/P7">
+		<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://lule.miraheze.org/prop/qualifier/value/P7">
+		<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://lule.miraheze.org/prop/reference/value/P7">
+		<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://lule.miraheze.org/prop/direct/P7">
+		<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://lule.miraheze.org/prop/statement/P7">
+		<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://lule.miraheze.org/prop/qualifier/P7">
+		<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://lule.miraheze.org/prop/reference/P7">
+		<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://lule.miraheze.org/prop/novalue/P7">
+		<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+		<owl:complementOf rdf:nodeID="b3316efa17ecac96bd23cd2f352c0a22"/>
+	</rdf:Description>
+	<rdf:Description rdf:nodeID="b3316efa17ecac96bd23cd2f352c0a22">
+		<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+		<owl:onProperty rdf:resource="https://lule.miraheze.org/prop/direct/P7"/>
+		<owl:someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://lule.miraheze.org/entity/P18">
+		<rdf:type rdf:resource="http://wikiba.se/ontology#Property"/>
+		<rdfs:label xml:lang="en">a</rdfs:label>
+		<skos:prefLabel xml:lang="en">a</skos:prefLabel>
+		<schema:name xml:lang="en">a</schema:name>
+		<schema:description xml:lang="en">token &#039;a&#039; in the predicate position of a Turtle triple</schema:description>
+		<wikibase:propertyType rdf:resource="http://wikiba.se/ontology#WikibaseItem"/>
+		<wikibase:directClaim rdf:resource="https://lule.miraheze.org/prop/direct/P18"/>
+		<wikibase:claim rdf:resource="https://lule.miraheze.org/prop/P18"/>
+		<wikibase:statementProperty rdf:resource="https://lule.miraheze.org/prop/statement/P18"/>
+		<wikibase:statementValue rdf:resource="https://lule.miraheze.org/prop/statement/value/P18"/>
+		<wikibase:qualifier rdf:resource="https://lule.miraheze.org/prop/qualifier/P18"/>
+		<wikibase:qualifierValue rdf:resource="https://lule.miraheze.org/prop/qualifier/value/P18"/>
+		<wikibase:reference rdf:resource="https://lule.miraheze.org/prop/reference/P18"/>
+		<wikibase:referenceValue rdf:resource="https://lule.miraheze.org/prop/reference/value/P18"/>
+		<wikibase:novalue rdf:resource="https://lule.miraheze.org/prop/novalue/P18"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://lule.miraheze.org/prop/P18">
+		<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://lule.miraheze.org/prop/statement/value/P18">
+		<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://lule.miraheze.org/prop/qualifier/value/P18">
+		<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://lule.miraheze.org/prop/reference/value/P18">
+		<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://lule.miraheze.org/prop/direct/P18">
+		<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://lule.miraheze.org/prop/statement/P18">
+		<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://lule.miraheze.org/prop/qualifier/P18">
+		<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://lule.miraheze.org/prop/reference/P18">
+		<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://lule.miraheze.org/prop/novalue/P18">
+		<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+		<owl:complementOf rdf:nodeID="6805f61e02eb4845abffeb9b8a398ef2"/>
+	</rdf:Description>
+	<rdf:Description rdf:nodeID="6805f61e02eb4845abffeb9b8a398ef2">
+		<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+		<owl:onProperty rdf:resource="https://lule.miraheze.org/prop/direct/P18"/>
+		<owl:someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://lule.miraheze.org/entity/P21">
+		<rdf:type rdf:resource="http://wikiba.se/ontology#Property"/>
+		<rdfs:label xml:lang="en">rdftext.string-value</rdfs:label>
+		<skos:prefLabel xml:lang="en">rdftext.string-value</skos:prefLabel>
+		<schema:name xml:lang="en">rdftext.string-value</schema:name>
+		<schema:description xml:lang="en">RDF Text Event string-value accessor</schema:description>
+		<wikibase:propertyType rdf:resource="http://wikiba.se/ontology#String"/>
+		<wikibase:directClaim rdf:resource="https://lule.miraheze.org/prop/direct/P21"/>
+		<wikibase:claim rdf:resource="https://lule.miraheze.org/prop/P21"/>
+		<wikibase:statementProperty rdf:resource="https://lule.miraheze.org/prop/statement/P21"/>
+		<wikibase:statementValue rdf:resource="https://lule.miraheze.org/prop/statement/value/P21"/>
+		<wikibase:qualifier rdf:resource="https://lule.miraheze.org/prop/qualifier/P21"/>
+		<wikibase:qualifierValue rdf:resource="https://lule.miraheze.org/prop/qualifier/value/P21"/>
+		<wikibase:reference rdf:resource="https://lule.miraheze.org/prop/reference/P21"/>
+		<wikibase:referenceValue rdf:resource="https://lule.miraheze.org/prop/reference/value/P21"/>
+		<wikibase:novalue rdf:resource="https://lule.miraheze.org/prop/novalue/P21"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://lule.miraheze.org/prop/P21">
+		<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://lule.miraheze.org/prop/statement/value/P21">
+		<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://lule.miraheze.org/prop/qualifier/value/P21">
+		<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://lule.miraheze.org/prop/reference/value/P21">
+		<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://lule.miraheze.org/prop/direct/P21">
+		<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://lule.miraheze.org/prop/statement/P21">
+		<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://lule.miraheze.org/prop/qualifier/P21">
+		<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://lule.miraheze.org/prop/reference/P21">
+		<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://lule.miraheze.org/prop/novalue/P21">
+		<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+		<owl:complementOf rdf:nodeID="b7ce489725b88be3120150aea852ad48"/>
+	</rdf:Description>
+	<rdf:Description rdf:nodeID="b7ce489725b88be3120150aea852ad48">
+		<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+		<owl:onProperty rdf:resource="https://lule.miraheze.org/prop/direct/P21"/>
+		<owl:someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://lule.miraheze.org/entity/P31">
+		<rdf:type rdf:resource="http://wikiba.se/ontology#Property"/>
+		<rdfs:label xml:lang="en">is rdf:value of</rdfs:label>
+		<skos:prefLabel xml:lang="en">is rdf:value of</skos:prefLabel>
+		<schema:name xml:lang="en">is rdf:value of</schema:name>
+		<wikibase:propertyType rdf:resource="http://wikiba.se/ontology#WikibaseProperty"/>
+		<wikibase:directClaim rdf:resource="https://lule.miraheze.org/prop/direct/P31"/>
+		<wikibase:claim rdf:resource="https://lule.miraheze.org/prop/P31"/>
+		<wikibase:statementProperty rdf:resource="https://lule.miraheze.org/prop/statement/P31"/>
+		<wikibase:statementValue rdf:resource="https://lule.miraheze.org/prop/statement/value/P31"/>
+		<wikibase:qualifier rdf:resource="https://lule.miraheze.org/prop/qualifier/P31"/>
+		<wikibase:qualifierValue rdf:resource="https://lule.miraheze.org/prop/qualifier/value/P31"/>
+		<wikibase:reference rdf:resource="https://lule.miraheze.org/prop/reference/P31"/>
+		<wikibase:referenceValue rdf:resource="https://lule.miraheze.org/prop/reference/value/P31"/>
+		<wikibase:novalue rdf:resource="https://lule.miraheze.org/prop/novalue/P31"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://lule.miraheze.org/prop/P31">
+		<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://lule.miraheze.org/prop/statement/value/P31">
+		<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://lule.miraheze.org/prop/qualifier/value/P31">
+		<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://lule.miraheze.org/prop/reference/value/P31">
+		<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://lule.miraheze.org/prop/direct/P31">
+		<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://lule.miraheze.org/prop/statement/P31">
+		<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://lule.miraheze.org/prop/qualifier/P31">
+		<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://lule.miraheze.org/prop/reference/P31">
+		<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://lule.miraheze.org/prop/novalue/P31">
+		<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+		<owl:complementOf rdf:nodeID="3d66a9a972a16b3583effd41e5f2aff4"/>
+	</rdf:Description>
+	<rdf:Description rdf:nodeID="3d66a9a972a16b3583effd41e5f2aff4">
+		<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+		<owl:onProperty rdf:resource="https://lule.miraheze.org/prop/direct/P31"/>
+		<owl:someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://lule.miraheze.org/entity/Q28">
+		<rdf:type rdf:resource="http://wikiba.se/ontology#Item"/>
+		<rdfs:label xml:lang="en">data:Q1.rdf</rdfs:label>
+		<skos:prefLabel xml:lang="en">data:Q1.rdf</skos:prefLabel>
+		<schema:name xml:lang="en">data:Q1.rdf</schema:name>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://lule.miraheze.org/entity/P3">
+		<rdf:type rdf:resource="http://wikiba.se/ontology#Property"/>
+		<rdfs:label xml:lang="en">is in scheme</rdfs:label>
+		<skos:prefLabel xml:lang="en">is in scheme</skos:prefLabel>
+		<schema:name xml:lang="en">is in scheme</schema:name>
+		<schema:description xml:lang="en">Relates a resource (for example a concept) to a concept scheme in which it is included.</schema:description>
+		<wikibase:propertyType rdf:resource="http://wikiba.se/ontology#WikibaseItem"/>
+		<wikibase:directClaim rdf:resource="https://lule.miraheze.org/prop/direct/P3"/>
+		<wikibase:claim rdf:resource="https://lule.miraheze.org/prop/P3"/>
+		<wikibase:statementProperty rdf:resource="https://lule.miraheze.org/prop/statement/P3"/>
+		<wikibase:statementValue rdf:resource="https://lule.miraheze.org/prop/statement/value/P3"/>
+		<wikibase:qualifier rdf:resource="https://lule.miraheze.org/prop/qualifier/P3"/>
+		<wikibase:qualifierValue rdf:resource="https://lule.miraheze.org/prop/qualifier/value/P3"/>
+		<wikibase:reference rdf:resource="https://lule.miraheze.org/prop/reference/P3"/>
+		<wikibase:referenceValue rdf:resource="https://lule.miraheze.org/prop/reference/value/P3"/>
+		<wikibase:novalue rdf:resource="https://lule.miraheze.org/prop/novalue/P3"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://lule.miraheze.org/prop/P3">
+		<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://lule.miraheze.org/prop/statement/value/P3">
+		<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://lule.miraheze.org/prop/qualifier/value/P3">
+		<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://lule.miraheze.org/prop/reference/value/P3">
+		<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://lule.miraheze.org/prop/direct/P3">
+		<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://lule.miraheze.org/prop/statement/P3">
+		<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://lule.miraheze.org/prop/qualifier/P3">
+		<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://lule.miraheze.org/prop/reference/P3">
+		<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://lule.miraheze.org/prop/novalue/P3">
+		<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+		<owl:complementOf rdf:nodeID="1086e1c4470bf0a461225f75b332f53e"/>
+	</rdf:Description>
+	<rdf:Description rdf:nodeID="1086e1c4470bf0a461225f75b332f53e">
+		<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+		<owl:onProperty rdf:resource="https://lule.miraheze.org/prop/direct/P3"/>
+		<owl:someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://lule.miraheze.org/entity/Q22">
+		<rdf:type rdf:resource="http://wikiba.se/ontology#Item"/>
+		<rdfs:label xml:lang="en">application/rdf+xml</rdfs:label>
+		<skos:prefLabel xml:lang="en">application/rdf+xml</skos:prefLabel>
+		<schema:name xml:lang="en">application/rdf+xml</schema:name>
+		<schema:description xml:lang="en">XML syntax for RDF graphs</schema:description>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://lule.miraheze.org/entity/P19">
+		<rdf:type rdf:resource="http://wikiba.se/ontology#Property"/>
+		<rdfs:label xml:lang="en">mediaType</rdfs:label>
+		<skos:prefLabel xml:lang="en">mediaType</skos:prefLabel>
+		<schema:name xml:lang="en">mediaType</schema:name>
+		<schema:description xml:lang="en">The media type of the distribution as defined by IANA</schema:description>
+		<wikibase:propertyType rdf:resource="http://wikiba.se/ontology#WikibaseItem"/>
+		<wikibase:directClaim rdf:resource="https://lule.miraheze.org/prop/direct/P19"/>
+		<wikibase:claim rdf:resource="https://lule.miraheze.org/prop/P19"/>
+		<wikibase:statementProperty rdf:resource="https://lule.miraheze.org/prop/statement/P19"/>
+		<wikibase:statementValue rdf:resource="https://lule.miraheze.org/prop/statement/value/P19"/>
+		<wikibase:qualifier rdf:resource="https://lule.miraheze.org/prop/qualifier/P19"/>
+		<wikibase:qualifierValue rdf:resource="https://lule.miraheze.org/prop/qualifier/value/P19"/>
+		<wikibase:reference rdf:resource="https://lule.miraheze.org/prop/reference/P19"/>
+		<wikibase:referenceValue rdf:resource="https://lule.miraheze.org/prop/reference/value/P19"/>
+		<wikibase:novalue rdf:resource="https://lule.miraheze.org/prop/novalue/P19"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://lule.miraheze.org/prop/P19">
+		<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://lule.miraheze.org/prop/statement/value/P19">
+		<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://lule.miraheze.org/prop/qualifier/value/P19">
+		<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://lule.miraheze.org/prop/reference/value/P19">
+		<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://lule.miraheze.org/prop/direct/P19">
+		<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://lule.miraheze.org/prop/statement/P19">
+		<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://lule.miraheze.org/prop/qualifier/P19">
+		<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://lule.miraheze.org/prop/reference/P19">
+		<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://lule.miraheze.org/prop/novalue/P19">
+		<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+		<owl:complementOf rdf:nodeID="427a1cf7aa76aeba0fa0d95411406bf8"/>
+	</rdf:Description>
+	<rdf:Description rdf:nodeID="427a1cf7aa76aeba0fa0d95411406bf8">
+		<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+		<owl:onProperty rdf:resource="https://lule.miraheze.org/prop/direct/P19"/>
+		<owl:someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://lule.miraheze.org/entity/Q25">
+		<rdf:type rdf:resource="http://wikiba.se/ontology#Item"/>
+		<rdfs:label xml:lang="en">data:Q1</rdfs:label>
+		<skos:prefLabel xml:lang="en">data:Q1</skos:prefLabel>
+		<schema:name xml:lang="en">data:Q1</schema:name>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://lule.miraheze.org/entity/Q23">
+		<rdf:type rdf:resource="http://wikiba.se/ontology#Item"/>
+		<rdfs:label xml:lang="en">data:Q1.ttl</rdfs:label>
+		<skos:prefLabel xml:lang="en">data:Q1.ttl</skos:prefLabel>
+		<schema:name xml:lang="en">data:Q1.ttl</schema:name>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://lule.miraheze.org/entity/Q21">
+		<rdf:type rdf:resource="http://wikiba.se/ontology#Item"/>
+		<rdfs:label xml:lang="en">text/turtle</rdfs:label>
+		<skos:prefLabel xml:lang="en">text/turtle</skos:prefLabel>
+		<schema:name xml:lang="en">text/turtle</schema:name>
+		<schema:description xml:lang="en">a concrete syntax for RDF</schema:description>
+	</rdf:Description>
+</rdf:RDF>
